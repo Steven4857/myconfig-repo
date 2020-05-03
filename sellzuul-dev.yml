@@ -1,2 +1,17 @@
 server:
   port: 9006
+zuul:
+  routes:
+    eurekaclient1: /DIY2/**
+    myroute:
+      path: /DIY/**
+      serviceId: eurekaclient1
+      sensitiveHeaders:
+  ignored-patterns:
+    - /eurekaclient1/say
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
