@@ -2,7 +2,7 @@ server:
   port: 9006
 zuul:
   routes:
-    eurekaclient1: /DIY2/**
+    eurekaclient1: /DIY3/**
     eurekaclient2: /DIY4/**
     myroute:
       path: /DIY/**
