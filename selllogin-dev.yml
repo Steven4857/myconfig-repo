@@ -1,4 +1,2 @@
-  jpa:
-    show-sql: true
-   server: 
-    port: 8000
+server:
+  port: 8080
