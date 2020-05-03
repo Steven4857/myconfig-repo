@@ -3,6 +3,7 @@ server:
 zuul:
   routes:
     eurekaclient1: /DIY2/**
+    eurekaclient2: /DIY3/**
     myroute:
       path: /DIY/**
       serviceId: eurekaclient1
