@@ -10,7 +10,7 @@ zuul:
       sensitiveHeaders:
   ignored-patterns:
     - /eurekaclient1/say
-
+  
 management:
   endpoints:
     web:
